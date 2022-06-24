@@ -1,0 +1,29 @@
+
+*{
+  background-color: black
+}
+
+td.time-box, td.time-box-mask{
+  color           : #0090ff   ;
+  text-align      : center    ;
+  vertical-align  : middle    ;
+  font-size       : 11pt      ;
+  font-family     : "Consolas", monospace;
+
+  border-radius   : 10px;
+  border          : 2px solid #0090ff;
+  padding         : 6px;
+}
+
+td.time-box-mask{
+  color           : gray  ;
+  border          : 2px solid gray;
+}
+
+th{
+  color           : white   ;
+  text-align      : center    ;
+  vertical-align  : middle    ;
+  font-size       : 11pt      ;
+  font-family     : "Consolas", monospace;
+}

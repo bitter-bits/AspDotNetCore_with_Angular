@@ -1,0 +1,36 @@
+th, td{
+  color           : white     ;
+}
+
+td.time-box{
+  color           : #0090ff   ;
+  text-align      : center    ;
+  vertical-align  : middle    ;
+  font-size       : 11pt      ;
+  font-family     : "Consolas", monospace;
+
+  border-radius   : 10px;
+  border          : 2px solid #0090ff;
+  padding         : 6px;
+}
+
+td.time-box-mask{
+  color           : #0090ff   ;
+  text-align      : center    ;
+  vertical-align  : middle    ;
+  font-size       : 11pt      ;
+  font-family     : "Consolas", monospace;
+
+  border-radius   : 10px;
+  border          : 2px solid #0090ff;
+  padding         : 6px;
+
+  background      : repeating-linear-gradient(45deg, transparent, transparent 4px, currentColor 4px, currentColor calc(2 * 4px));
+}
+
+td.time-box-mask{
+  color           : gray  ;
+  border          : 2px solid gray;
+
+  height          : 36px;
+}
